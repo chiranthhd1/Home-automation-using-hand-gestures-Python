@@ -14,7 +14,7 @@ from datetime import datetime
 adxl345 = ADXL345()
 
 print "ADXL345 on address 0x%x:" % (adxl345.address)
-file = open("up2dec.csv",'w')
+file = open("deviceoff1.csv",'w')
 
 
 while True:
@@ -25,5 +25,5 @@ while True:
 	print datetime.now().strftime('%H:%M:%S')
 	print " 	x = %.3f    y = %.3f    z = %.3f" % ( axes['x'], axes['y'], axes['z'] )
 #	if (axes['x'] or  axes['y'] or axes['x'])  >= x:
-	file.write(" %s,%.3f,%.3f,%.3f\n" % (datetime.now().strftime('%H:%M:%S'),axes['x'],axes['y'],axes['z']))
-	time.sleep(.2)
+#		file.write(" %s,%.3f,%.3f,%.3f\n" % (datetime.now().strftime('%H:%M:%S'),axes['x'],axes['y'],axes['z']))
+	time.sleep(.25)
