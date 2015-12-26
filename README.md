@@ -5,11 +5,10 @@ Home Automation using Hand Gesture Project
 Directory Structure
 ===================
 -> Three Directories are included here
-	1. Working Final Code - Contains the files which are finalised and working for the Project
-	2. Extra Code during Development - 	Contains the files which we used during the development of the project 
-										for the sensor interface, algorithm development and debugging
-	3. Gesture Sample Files - 	Contains the Sensor data's sample files which are captured from the Raspberry PI for the 
-								Designing of the Machine Learning Algorithm and various Gestures Training
+
+	1. Working Code and codes during the development of project.
+	2. Library for sensor
+	3. Decision Tree Algorith implementation
 
 Compilation and Run
 ===================
